@@ -10,7 +10,7 @@ from pathlib import Path
 import gdown
 
 # Ensure data_input/ exists
-DATA_DIR = Path("data_input")
+DATA_DIR = Path("../../data_input")
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 # Google Drive FILE IDs for each dataset
